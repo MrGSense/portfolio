@@ -8,4 +8,23 @@ html {
   // This defines what 1rem is
   font-size: 62.5%; //1rem = 10px
   text-align: center;
+  scroll-behavior: smooth;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+}
+
+.break {
+  width: 100vw;
+  height: 20vh;
+  padding: 30px;
+}
+
+.contact {
+  width: 100vw;
+  height: 20vh;
+  padding: 30px;
 }
