@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Kyle Fetterhoff Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <link rel="icon" href="./assets/images/favicon.ico" />
     <link rel="stylesheet" href="./assets//css//index.css" />
     <link
       rel="stylesheet"
@@ -12,61 +14,40 @@
     />
   </head>
   <body>
-    <div class="navigation">
-      <nav class="navigation_nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#header" class="navigation__link"><span>01</span>Home</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#section-about" class="navigation__link"
-              ><span>02</span>About</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#section-projects" class="navigation__link"
-              ><span>03</span>Projects</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#section-contact" class="navigation__link"
-              ><span>04</span>Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <header class="page blue darken-2" id="home"></header>
 
-    <header class="header" id="header">
-      <div class="header__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary-main">Kyle Fetterhoff</span>
-          <span class="heading-primary-sub">Columbus based Web Developer</span>
-        </h1>
-        <div class="header__button-box">
-          <a href="#section-projects" class="header__button"
-            >View my projects</a
-          >
-          <a href="https://github.com/MrGSense" class="header__button"
-            >View my Github</a
-          >
+    <div class="break blue darken-3" id="tech"></div>
+
+    <div class="page blue darken-2" id="projects"></div>
+
+    <footer class="contact blue darken-3" id="footer">
+      <div class="row">
+        <div class="col s6 ">
+          <h5>Thanks for coming to my site!</h5>
+          <p>
+            If you want to contact me you can use links to the right, I am much
+            more likely to respond to an email though!
+          </p>
+        </div>
+        <div class="col s6">
+          <h5>Contact Information:</h5>
+          <ul>
+            <li>Phone: <a href="tel:614-519-9255">614-519-9255</a></li>
+            <li>
+              Email:
+              <a
+                href="mailto:kyle.fetterhoff@gmail.com?subject=Want To Work With You!"
+                >kyle.fetthoff@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col s12">
+          <h6>&copy; 2020 Kyle Fetterhoff</h6>
         </div>
       </div>
-      <div class="header__tech">
-        <h1 class="header__tech-text">Technology I Work With</h1>
-        <div class="header__tech-group">
-          <img class="header__tech-img" src="" alt="Technology I work with" />
-        </div>
-      </div>
-    </header>
+    </footer>
 
-    <main>
-      <section class="section-about"></section>
-
-      <section class="section-projects"></section>
-
-      <section class="section-contact"></section>
-    </main>
     <script src="./assets/js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
