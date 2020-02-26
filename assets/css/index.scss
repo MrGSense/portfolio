@@ -7,6 +7,7 @@
 html {
   // This defines what 1rem is
   font-size: 62.5%; //1rem = 10px
+  font-family: Roboto;
   text-align: center;
   scroll-behavior: smooth;
 }
@@ -15,6 +16,10 @@ html {
   width: 100vw;
   height: 100vh;
   padding: 30px;
+
+  &-projects {
+    height: 55vh;
+  }
 }
 
 .break {
@@ -23,8 +28,6 @@ html {
   padding: 30px;
 }
 
-.contact {
-  width: 100vw;
-  height: 20vh;
-  padding: 30px;
+.margin-bottom {
+  margin-bottom: 3rem;
 }
