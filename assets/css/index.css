@@ -19,11 +19,15 @@ html {
 }
 
 .page-about {
-  height: 100vh;
+  height: 70vh;
 }
 
 .page-projects {
   height: 55vh;
+}
+
+.break {
+  margin-top: 9rem;
 }
 
 .margin-bottom {

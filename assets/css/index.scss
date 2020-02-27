@@ -18,12 +18,16 @@ html {
   padding: 30px;
 
   &-about {
-    height: 100vh;
+    height: 70vh;
   }
 
   &-projects {
     height: 55vh;
   }
+}
+
+.break {
+  margin-top: 9rem;
 }
 
 .margin-bottom {
