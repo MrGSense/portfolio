@@ -52,15 +52,27 @@
     </div>
 
     <div class="page scrollspy" id="about">
-      <div class="container">
-        <h3>About Me</h3>
+      <h3 class="margin-bottom">About Me</h3>
+      <div class="row">
+      <div class="col s12 m8 container">
+        <div class="card hoverable">
+          <div class="card-image">
+        <img src="./assets//images//me.png" alt="Picture of Me">
       </div>
-      <div class="container">
-        <h4 class="margin-bottom">Technologies I Use</h4>
+      <div class="card-content">
+        <p>Hey there! I'm Kyle Fetterhoff, a Web Developer from Columbus, Ohio. When I'm not coding (which is not very often), I'm playing guitar, playing games, or hiking!</p>
+      </br>
+      </div>
+    </div>
+      </div>
+      <div class="col s12 m4 container">
+        <div class="card hoverable">
+          <div class="card-content">
+        <h5 class="margin-bottom">Technologies I Use</h5>
         <ul class="collapsible">
           <li>
             <div class="collapsible-header">
-              <h6>Daily</h6>
+              <p>Daily</p>
             </div>
             <div class="collapsible-body">
               <div class="row">
@@ -68,36 +80,54 @@
                   <img
                     src="./assets//images//html5-original.svg"
                     alt="Html5 Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="HTML"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//css3-original.svg"
                     alt="Css3 Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="CSS"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//sass-original.svg"
                     alt="Sass Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Sass/Scss"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//javascript-original.svg"
                     alt="Javascript Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Javascript"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//git-original.svg"
                     alt="Git Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Git"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//react-original.svg"
                     alt="React Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="React"
                   />
                 </div>
               </div>
@@ -105,7 +135,7 @@
           </li>
           <li>
             <div class="collapsible-header">
-              <h6>Weekly</h6>
+              <p>Weekly</p>
             </div>
             <div class="collapsible-body">
               <div class="row">
@@ -113,67 +143,105 @@
                   <img
                     src="./assets//images//express-original.svg"
                     alt="Express Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Express"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//mongodb-original.svg"
                     alt="MongoDB Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="MongoDB"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//npm-original-wordmark.svg"
                     alt="NPM Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="npm"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//nodejs-original.svg"
                     alt="NodeJS Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="NodeJS"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//redux-original.svg"
                     alt="Redux Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Redux"
                   />
                 </div>
                 <div class="col s2">
                   <img
                     src="./assets//images//d3js-original.svg"
                     alt="D3JS Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="D3.js"
                   />
                 </div>
               </div>
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><h6>Montly</h6></div>
+            <div class="collapsible-header"><p>Montly</p></div>
             <div class="collapsible-body">
               <div class="row">
                 <div class="col s2 push-s3">
                   <img
                     src="./assets//images//heroku-original.svg"
                     alt="Heroku Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Heroku"
                   />
                 </div>
                 <div class="col s2 push-s3">
                   <img
                     src="./assets//images//webpack-original.svg"
                     alt="Webpack Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Webpack"
                   />
                 </div>
                 <div class="col s2 push-s3">
                   <img
                     src="./assets//images//babel-original.svg"
                     alt="Babel Icon"
+                    class="tooltipped"
+                    data-position="bottom"
+                    data-tooltip="Babel"
                   />
                 </div>
               </div>
             </div>
           </li>
         </ul>
+        <a
+          href="./assets//resume/resume.pdf"
+          download
+          class="waves-effect waves-light black btn tooltipped"
+          data-position="bottom"
+          data-tooltip="Download My Resume!"
+          >Resume</a
+        >
+      </div>
+      </div>
+      </div>
       </div>
     </div>
 
@@ -238,6 +306,7 @@
               lot about how useful it is when managing multiple states over an
               entire application!
             </h5>
+            <img src="./assets//images//bugtracker.png" alt="Picture of Bug Tracker App" class="materialboxed responsive-img">
             <ul class="collapsible">
               <li>
                 <div class="collapsible-header">
@@ -285,6 +354,7 @@
               inquery. Also includes different promo codes and not links for
               specific clothing items.
             </h5>
+            <img src="./assets//images//chatbot.png" alt="Picture of Chatbot App" class="materialboxed responsive-img">
             <ul class="collapsible">
               <li>
                 <div class="collapsible-header">
@@ -332,6 +402,7 @@
               server and vise-versa is not the best so it's a little jittery.
               But nonetheless a fun game to play with friends with no standards!
             </h5>
+            <img src="./assets//images//agarclone.png" alt="Picture of Agar.io Clone App" class="materialboxed responsive-img">
             <ul class="collapsible">
               <li>
                 <div class="collapsible-header">
@@ -416,14 +487,12 @@
         <div class="col s12 m6 margin-bottom">
           <h5>Thanks for coming to my site!</h5>
           <p>
-            If you want to contact me you can use links to the right, I am much
-            more likely to respond to an email though!
+            If you want to contact me you can use links to the right!
           </p>
         </div>
         <div class="col s12 m6 margin-bottom">
           <h5>Contact Information:</h5>
           <ul>
-            <li>Phone: <a href="tel:614-519-9255">614-519-9255</a></li>
             <li>
               Email:
               <a
