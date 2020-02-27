@@ -18,20 +18,12 @@ html {
   padding: 30px;
 }
 
+.page-about {
+  height: 100vh;
+}
+
 .page-projects {
   height: 55vh;
-}
-
-.break {
-  width: 100vw;
-  height: 20vh;
-  padding: 30px;
-}
-
-.tech {
-  width: 100vw;
-  height: 65vh;
-  padding: 30px;
 }
 
 .margin-bottom {

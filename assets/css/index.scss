@@ -17,15 +17,13 @@ html {
   height: 100vh;
   padding: 30px;
 
+  &-about {
+    height: 100vh;
+  }
+
   &-projects {
     height: 55vh;
   }
-}
-
-.break {
-  width: 100vw;
-  height: 20vh;
-  padding: 30px;
 }
 
 .margin-bottom {
