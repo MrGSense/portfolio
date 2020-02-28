@@ -2,7 +2,6 @@
   "name": "Kyle Fetterhoff Portfolio",
   "short_name": "Portfolio",
   "start_url": "index.html?utm_source=homescreen",
-  "scope": "./",
   "display": "standalone",
   "theme_color": "#141414",
   "background_color": "#141414",
