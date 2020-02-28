@@ -1,27 +1,33 @@
 // Init Materalize JS Components
 M.AutoInit();
 
-let p;
+const particles = [];
 
 function setup() {
   var canvas = createCanvas(window.innerWidth, window.innerHeight);
-
-  p = new Particle();
-
   canvas.parent("home");
+
+  const particlesLength = Math.min(Math.floor(window.innerWidth / 10), 100);
+
+  for (let i = 0; i < particlesLength; i++) {
+    particles.push(new Particle());
+  }
 }
 
 function draw() {
-  background(55, 100, 144);
-  p.update();
-  p.draw();
+  background(20);
+  particles.forEach((p, i) => {
+    p.update();
+    p.drawParticle();
+    p.checkParticles(particles.slice(i));
+  });
 }
 
 class Particle {
   constructor() {
     this.pos = createVector(random(width), random(height));
     this.vel = createVector(random(-2, 2), random(-2, 2));
-    this.size = 10;
+    this.size = 12;
   }
 
   update() {
@@ -29,9 +35,9 @@ class Particle {
     this.detectEdges();
   }
 
-  draw() {
+  drawParticle() {
     noStroke();
-    fill("rgba(0, 0, 0, 0.5)");
+    fill("rgba(255, 255, 255, 0.5)");
     circle(this.pos.x, this.pos.y, this.size);
   }
 
@@ -43,5 +49,17 @@ class Particle {
     if (this.pos.y < 0 || this.pos.y > height) {
       this.vel.y *= -1;
     }
+  }
+
+  checkParticles(particles) {
+    particles.forEach(particle => {
+      const d = dist(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+
+      if (d < 120) {
+        const alpha = map(d, 0, 120, 0, 0.25);
+        stroke(`rgba(255, 255, 255, ${alpha})`);
+        line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+      }
+    });
   }
 }
