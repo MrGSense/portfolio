@@ -21,6 +21,7 @@ body {
   padding: 30px;
 
   &-about {
+    background-color: #141414;
     height: 80vh;
   }
 
@@ -52,6 +53,11 @@ body {
   & a:hover {
     border-left: 2px solid #212121 !important;
   }
+}
+
+.darken {
+  filter: brightness(40%);
+  width: 100vw;
 }
 
 .parallax-container {
