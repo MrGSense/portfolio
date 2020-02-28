@@ -33,4 +33,9 @@ html {
 .margin-bottom {
   margin-bottom: 3rem;
 }
+
+canvas {
+  position: absolute;
+  z-index: -1;
+}
 /*# sourceMappingURL=index.css.map */
