@@ -38,10 +38,7 @@
 "use strict";
 
 var precacheConfig = [
-  ["README.md", "275946975f06da49f0379eef743bf4c4"],
   ["assets/css/index.css", "4eb8bc31d9e12588f602fda7383f60a7"],
-  ["assets/css/index.css.map", "cfef8961acc2fce00a84d3a03c96e403"],
-  ["assets/css/index.scss", "acc12164573f7408e0c4422bb775be76"],
   ["assets/css/materialize.min.css", "ec1df3ba49973dcb9ff212f052d39483"],
   ["assets/images/agarclone.webp", "011922719c7c02e26d0112595f96b554"],
   [
