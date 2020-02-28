@@ -2,6 +2,7 @@
   "name": "Kyle Fetterhoff Portfolio",
   "short_name": "Portfolio",
   "description": "Portfolio for Web Developer Kyle Fetterhoff",
+  "scope": "./",
   "start_url": "index.html?utm_source=homescreen",
   "display": "standalone",
   "theme_color": "#141414",
