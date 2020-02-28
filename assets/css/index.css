@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  position: relative;
+}
+
 .page {
   width: 100%;
   height: 100vh;
@@ -19,19 +23,40 @@ html {
 }
 
 .page-about {
-  height: 70vh;
+  height: 80vh;
 }
 
 .page-projects {
-  height: 55vh;
+  height: 60vh;
 }
 
 .break {
-  margin-top: 9rem;
+  padding: 30px;
+  height: 25vh;
+  background-color: #141414;
 }
 
 .margin-bottom {
   margin-bottom: 3rem;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  z-index: 2;
+}
+
+.fixed-nav a.active {
+  border-left: 2px solid #212121 !important;
+}
+
+.fixed-nav a:hover {
+  border-left: 2px solid #212121 !important;
+}
+
+.parallax-container {
+  z-index: 1;
 }
 
 canvas {

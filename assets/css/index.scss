@@ -5,11 +5,14 @@
 }
 
 html {
-  // This defines what 1rem is
-  font-size: 62.5%; //1rem = 10px
+  font-size: 62.5%;
   font-family: Roboto;
   text-align: center;
   scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
 }
 
 .page {
@@ -18,20 +21,41 @@ html {
   padding: 30px;
 
   &-about {
-    height: 70vh;
+    height: 80vh;
   }
 
   &-projects {
-    height: 55vh;
+    height: 60vh;
   }
 }
 
 .break {
-  margin-top: 9rem;
+  padding: 30px;
+  height: 25vh;
+  background-color: #141414;
 }
 
 .margin-bottom {
   margin-bottom: 3rem;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  z-index: 2;
+
+  & a.active {
+    border-left: 2px solid #212121 !important;
+  }
+
+  & a:hover {
+    border-left: 2px solid #212121 !important;
+  }
+}
+
+.parallax-container {
+  z-index: 1;
 }
 
 canvas {
