@@ -38,7 +38,11 @@
 "use strict";
 
 var precacheConfig = [
+  ["README.md", "275946975f06da49f0379eef743bf4c4"],
   ["assets/css/index.css", "4eb8bc31d9e12588f602fda7383f60a7"],
+  ["assets/css/index.css.map", "cfef8961acc2fce00a84d3a03c96e403"],
+  ["assets/css/index.scss", "acc12164573f7408e0c4422bb775be76"],
+  ["assets/css/materialize.min.css", "ec1df3ba49973dcb9ff212f052d39483"],
   ["assets/images/agarclone.webp", "011922719c7c02e26d0112595f96b554"],
   [
     "assets/images/android-chrome-192x192.png",
@@ -72,10 +76,11 @@ var precacheConfig = [
   ["assets/images/redux-original.svg", "b7dc3b99382465652bda0e61515c0937"],
   ["assets/images/sass-original.svg", "88c1047792044b547d1d3e066d3e18c4"],
   ["assets/images/webpack-original.svg", "9a7a86a89b95d03d85686fad1578790e"],
-  ["assets/js/index.js", "dd02e05c97e71c606920650da0d4770c"],
+  ["assets/js/index.js", "c0497f287bb3d6c1bc05d05b638f9bef"],
+  ["assets/js/materialize.min.js", "5dcfc8944ed380b2215dc28b3f13835f"],
   ["assets/js/p5.min.js", "b4653a5fac810b436dd985c5569116fa"],
-  ["index.html", "c0039394c563327f4a6365d4772b4651"],
-  ["manifest.json", "20568e154819d771ea75a0e384657f97"]
+  ["index.html", "970790fe0fd403716b3bf2947a4329cf"],
+  ["manifest.json", "27d9d81417f83fc0285cecd78cbc6dc2"]
 ];
 var cacheName =
   "sw-precache-v3-sw-precache-" +
