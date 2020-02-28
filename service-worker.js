@@ -74,7 +74,6 @@ var precacheConfig = [
   ["assets/images/webpack-original.svg", "9a7a86a89b95d03d85686fad1578790e"],
   ["assets/js/index.js", "dd02e05c97e71c606920650da0d4770c"],
   ["assets/js/p5.min.js", "b4653a5fac810b436dd985c5569116fa"],
-  ["assets/js/service-worker.js", "d41d8cd98f00b204e9800998ecf8427e"],
   ["index.html", "c0039394c563327f4a6365d4772b4651"],
   ["manifest.json", "20568e154819d771ea75a0e384657f97"]
 ];
