@@ -288,64 +288,85 @@
         </div>
       </div>
 
-      <div class="section page-projects scrollspy" id="projects">
+      <div class="section page-projects scrollspy grey-text text-lighten-2" id="projects">
         <div class="container">
           <h2 class="margin-bottom">My Projects</h2>
           <div class="carousel carousel-slider center">
             <div class="carousel-item" href="#one!">
               <div class="container">
                 <h3>Bug Tracker</h3>
-                <h5>
+                <h5 class="margin-bottom">
                   MERN Stack programming bug sharing site
                 </h5>
+                <a
+            href="#modal1"
+            class="waves-effect waves-light grey darken-4 grey-text text-lighten-5 btn modal-trigger z-depth-2 hoverable tooltipped"
+            data-position="bottom"
+            data-tooltip="See More About My Bug Tracker Project"
+            >See More</a>
               </div>
             </div>
             <div class="carousel-item" href="#two!">
               <div class="container">
                 <h3>Chat Bot</h3>
-                <h5>
+                <h5 class="margin-bottom">
                   MERN Stack chatbot using DialogFlow
                 </h5>
+                <a
+            href="#modal2"
+            class="waves-effect waves-light grey darken-4 grey-text text-lighten-5 btn modal-trigger z-depth-2 hoverable tooltipped"
+            data-position="bottom"
+            data-tooltip="See More About My Bug Tracker Project"
+            >See More</a>
               </div>
             </div>
             <div class="carousel-item" href="#three!">
               <div class="container">
                 <h3>Agar.io Clone</h3>
-                <h5>
+                <h5 class="margin-bottom">
                   Agar.io clone using Socket.io and canvas
-                </h5>
+                </h5>    
+                  <a
+                  href="#modal3"
+                  class="waves-effect waves-light grey darken-4 grey-text text-lighten-5 btn modal-trigger z-depth-2 hoverable tooltipped"
+                  data-position="bottom"
+                  data-tooltip="See More About My Agar.io Clone Project"
+                  >See More</a>
               </div>
             </div>
-            <!-- <div class="carousel-item" href="#four!">
-              <div class="container">
-                <h3>Budgeting App</h3>
-                <h5>
-                  Simple SPA budgeting app using React
-                </h5>
-              </div>
-            </div> -->
           </div>
-          <a
-            href="#modal1"
-            class="waves-effect waves-light black btn modal-trigger z-depth-2 hoverable tooltipped"
-            data-position="left"
-            data-tooltip="Show Info On Bug Tracker"
-            >Bug Tracker</a>
-          <div class="modal" id="modal1">
-            <div class="modal-content container">
-              <h5>Bug Tracker</h5>
-              <p class="margin-bottom">
-                Mern Stack programming bug sharing site. Where users can share
-                their bugs from different projects and comment on the bugs of
-                other users to hopefully get some insight onto how to fix the
-                issue. It was the first time I really used Redux but taught me a
+          <div class="modal grey darken-4" id="modal1">
+            <div class="modal-content">
+              <h4>Bug Tracker</h4>
+              <blockquote>
+                Mern Stack programming bug sharing site.
+              </blockquote>
+              <blockquote>
+                Where users can share their bugs from different projects and comment on the bugs of
+                other users to hopefully get some insight onto how to fix the issue.
+              </blockquote>
+              <blockquote>
+                It was the first time I really used Redux but taught me a
                 lot about how useful it is when managing multiple states over an
                 entire application!
-              </p>
-              <img src="./assets//images//bugtracker.png" alt="Picture of Bug Tracker App" class="materialboxed responsive-img">
-              <ul class="collapsible">
+              </blockquote>
+                <a
+                  href="https://github.com/MrGSense/bug-tracker"
+                  target="_blank"
+                  class="waves-effect waves-light grey darken-3 grey-text text-lighten-5 btn z-depth-2 hoverable tooltipped"
+                  data-position="left"
+                  data-tooltip="To Project Github Rep">
+                  Github Repo</a>
+                <a
+                  href="https://bugtracker-kfett.herokuapp.com/"
+                  target="_blank"
+                  class="waves-effect waves-light grey darken-3 grey-text text-lighten-5 btn z-depth-2 hoverable tooltipped"
+                  data-position="right"
+                  data-tooltip="To Live App">
+                  Live Code</a>
+              <ul class="collapsible margin-bottom">
                 <li>
-                  <div class="collapsible-header">
+                  <div class="collapsible-header grey darken-4 grey-text text-lighten-5">
                     <p>Tech I Used</p>
                   </div>
                   <div class="collapsible-body">
@@ -355,42 +376,41 @@
                   </div>
                 </li>
               </ul>
-              <a
-                href="https://github.com/MrGSense/bug-tracker"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="left"
-                data-tooltip="To Project Github Rep"
-                >Github Repo</a>
-              <a
-                href="https://bugtracker-kfett.herokuapp.com/"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="right"
-                data-tooltip="To Live App"
-                >Live Code</a>
+                <img src="./assets//images//bugtracker.png" alt="Picture of Bug Tracker App" class="materialboxed responsive-img">
             </div>
           </div>
-          <a
-            href="#modal2"
-            class="waves-effect waves-light black btn modal-trigger z-depth-2 hoverable tooltipped"
-            data-position="bottom"
-            data-tooltip="Show Info On Chatbot"
-            >Chat Bot</a>
-          <div class="modal" id="modal2">
-            <div class="modal-content container">
-              <h5>Chat Bot</h5>
-              <p class="margin-bottom">
-                MERN Stack chatbot using DialogFlow. A fake e-retailer for
-                clothing in which a chatbot will see if the user wants
+          <div class="modal grey darken-4" id="modal2">
+            <div class="modal-content">
+              <h4>Chat Bot</h4>
+              <blockquote>
+                MERN Stack chatbot using DialogFlow.
+              </blockquote>
+              <blockquote>
+                A fake e-retailer for clothing in which a chatbot will see if the user wants
                 recommendations and then get their contact information for further
-                inquery. Also includes different promo codes and not links for
+                inquery.
+              </blockquote>
+              <blockquote>
+                Also includes different promo codes and not links for
                 specific clothing items.
-              </p>
-              <img src="./assets//images//chatbot.png" alt="Picture of Chatbot App" class="materialboxed responsive-img">
-              <ul class="collapsible">
+              </blockquote> 
+              <a
+                href="https://github.com/MrGSense/chat-bot"
+                target="_blank"
+                class="waves-effect waves-light grey darken-3 grey-text text-lighten-5 btn z-depth-2 hoverable tooltipped"
+                data-position="left"
+                data-tooltip="To Project Github Rep">
+                Github Repo</a>
+              <a
+                href="https://chatbot-kfett.herokuapp.com/"
+                target="_blank"
+                class="waves-effect waves-light grey darken-3 grey-text text-lighten-5 btn z-depth-2 hoverable tooltipped"
+                data-position="right"
+                data-tooltip="To Live App">
+                Live Code</a>
+              <ul class="collapsible margin-bottom">
                 <li>
-                  <div class="collapsible-header">
+                  <div class="collapsible-header grey darken-4 grey-text text-lighten-5">
                     <p>Tech I Used</p>
                   </div>
                   <div class="collapsible-body">
@@ -400,42 +420,40 @@
                   </div>
                 </li>
               </ul>
-              <a
-                href="https://github.com/MrGSense/chat-bot"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="left"
-                data-tooltip="To Project Github Rep"
-                >Github Repo</a>
-              <a
-                href="https://chatbot-kfett.herokuapp.com/"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="right"
-                data-tooltip="To Live App"
-                >Live Code</a>
+                <img src="./assets//images//chatbot.png" alt="Picture of Chatbot App" class="materialboxed responsive-img">
             </div>
           </div>
-          <a
-            href="#modal3"
-            class="waves-effect waves-light black btn modal-trigger z-depth-2 hoverable tooltipped"
-            data-position="right"
-            data-tooltip="Show Info On Agar.io Clone"
-            >Agar.io Clone</a>
-          <div class="modal" id="modal3">
-            <div class="modal-content container">
-              <h5>Agar.io Clone</h5>
-              <p class="margin-bottom">
-                Agar.io clone using Socket.io and canvas. A project I used to
-                learn Socket.io. The game is not the smoothest if I'm being
+          <div class="modal grey darken-4" id="modal3">
+            <div class="modal-content">
+              <h4>Agar.io Clone</h4>
+              <blockquote>
+                Agar.io clone using Socket.io and canvas.
+              </blockquote>
+              <blockquote>
+                A project I used to learn Socket.io. The game is not the smoothest if I'm being
                 totally honest, the constant tick and tock from the client to
                 server and vise-versa is not the best so it's a little jittery.
+              </blockquote>
+              <blockquote>
                 But nonetheless a fun game to play with friends with no standards!
-              </p>
-              <img src="./assets//images//agarclone.png" alt="Picture of Agar.io Clone App" class="materialboxed responsive-img">
-              <ul class="collapsible">
+              </blockquote>
+              <a
+                href="https://github.com/MrGSense/agar-clone"
+                target="_blank"
+                class="waves-effect waves-light grey darken-3 grey-text text-lighten-5 btn z-depth-2 hoverable tooltipped"
+                data-position="left"
+                data-tooltip="To Project Github Rep">
+                Github Repo</a>
+              <a
+                href="https://agar-clone-kfett.herokuapp.com/"
+                target="_blank"
+                class="waves-effect waves-light grey darken-3 grey-text text-lighten-5 btn z-depth-2 hoverable tooltipped"
+                data-position="right"
+                data-tooltip="To Live App">
+                Live Code</a>
+              <ul class="collapsible margin-bottom">
                 <li>
-                  <div class="collapsible-header">
+                  <div class="collapsible-header grey darken-4 grey-text text-lighten-5">
                     <p>Tech I Used</p>
                   </div>
                   <div class="collapsible-body">
@@ -444,66 +462,9 @@
                   </div>
                 </li>
               </ul>
-              <a
-                href="https://github.com/MrGSense/agar-clone"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="left"
-                data-tooltip="To Project Github Rep"
-                >Github Repo</a>
-              <a
-                href="https://agar-clone-kfett.herokuapp.com/"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="right"
-                data-tooltip="To Live App"
-                >Live Code</a>
+                <img src="./assets//images//agarclone.png" alt="Picture of Agar.io Clone App" class="materialboxed responsive-img">
             </div>
-          </div>
-          <!-- <a
-            href="#modal4"
-            class="waves-effect waves-light black btn modal-trigger z-depth-2 hoverable tooltipped"
-            data-position="bottom"
-            data-tooltip="Show Info On Budgeting App"
-            >Budgeting App</a
-          >
-          <div class="modal" id="modal4">
-            <div class="modal-content container">
-              <h4>Budgeting App</h4>
-              <h5 class="margin-bottom">
-                Simple SPA budgeting app using React. This project was fun to do
-                with passing data up and down through components, though a little
-                difficult since I was pretty new to React it was fun to create and
-                use. I plan to add some graphs in the empty space at the top using
-                D3.js in the future once I've dived into it a bit more but when I
-                do I'll make sure to update this!
-              </h5>
-              <ul class="collapsible">
-                <li>
-                  <div class="collapsible-header">
-                    <p>Tech I Used</p>
-                  </div>
-                  <div class="collapsible-body">
-                    Html, Css, Javascript, Scss, NodeJS, React, Express, Webpack,
-                    Babel, and Heroku
-                  </div>
-                </li>
-              </ul>
-              <a
-                href="https://github.com/MrGSense/budget-app"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="left"
-                data-tooltip="To Project Github Rep"
-                >Github Repo</a>
-              <a
-                href="https://budgetapp-kfett.herokuapp.com/"
-                target="_blank"
-                class="waves-effect waves-light black btn z-depth-2 hoverable tooltipped"
-                data-position="right"
-                data-tooltip="To Live App"
-                >Live Code</a>
-            </div> -->
+            </div>  
           </div>
         </div>
       </div>
