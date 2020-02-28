@@ -1,6 +1,13 @@
 // Service Worker
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/service-worker.js");
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then()
+      .catch(err => {
+        console.log(`Service Worker: Error: ${err}`);
+      });
+  });
 }
 
 // Init Materalize JS Components
