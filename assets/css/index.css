@@ -25,18 +25,27 @@ body {
 .page-about {
   background: #212121;
   background: radial-gradient(circle, #212121 0%, #141414 100%);
-  height: 80vh;
+  height: 100%;
 }
 
 .page-projects {
   background: #101018;
   background: radial-gradient(circle, #101018 0%, #0a0b10 100%);
-  height: 60vh;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-about {
+    height: 100% !important;
+  }
+  .colap-about {
+    width: 100vw;
+  }
 }
 
 .break {
   padding: 30px;
-  height: 25vh;
+  height: 100%;
   background-color: #141414;
 }
 

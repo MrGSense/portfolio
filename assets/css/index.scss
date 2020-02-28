@@ -27,7 +27,7 @@ body {
       rgba(33, 33, 33, 1) 0%,
       rgba(20, 20, 20, 1) 100%
     );
-    height: 80vh;
+    height: 100%;
   }
 
   &-projects {
@@ -37,13 +37,23 @@ body {
       rgba(16, 16, 24, 1) 0%,
       rgba(10, 11, 16, 1) 100%
     );
-    height: 60vh;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card-about {
+    height: 100% !important;
+  }
+
+  .colap-about {
+    width: 100vw;
   }
 }
 
 .break {
   padding: 30px;
-  height: 25vh;
+  height: 100%;
   background-color: #141414;
 }
 
