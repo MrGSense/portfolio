@@ -32,6 +32,10 @@ function setup() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(window.innerWidth, window.innerHeight);
+}
+
 function draw() {
   background(20);
   particles.forEach((p, i) => {
