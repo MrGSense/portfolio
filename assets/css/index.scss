@@ -85,7 +85,8 @@ blockquote {
 }
 
 .parallax-container {
-  z-index: 1;
+  position: relative !important;
+  z-index: -2 !important;
 }
 
 canvas {
